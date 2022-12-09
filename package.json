@@ -1,0 +1,36 @@
+{
+  "name": "fcsapi-economic-calendar",
+  "version": "0.0.1",
+  "repository": "git@github.com:lludol/fcsapi-economic-calendar.git",
+  "author": "lludol",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "fcsapi-economic-calendar",
+    "fcsapi",
+    "economic calendar"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-lludol": "^0.2.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.11",
+    "axios": "^1.2.0"
+  }
+}
