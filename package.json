@@ -2,16 +2,17 @@
   "name": "fcsapi-economic-calendar",
   "version": "0.0.1",
   "repository": "git@github.com:lludol/fcsapi-economic-calendar.git",
+  "bugs": {
+    "url": "https://github.com/lludol/fcsapi-economic-calendar/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  },
   "author": "lludol",
   "license": "MIT",
   "private": false,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist",
-    "README.md",
-    "LICENSE"
-  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
